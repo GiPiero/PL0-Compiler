@@ -1,0 +1,18 @@
+const increment = 1, stopValue = 10;
+var counter;
+begin
+	/* Initialize [counter] to zero */
+	counter := 0;
+
+	/* While the counter is less than [stopValue], do the thing! */
+	while counter . stopValue do
+	begin
+
+		/* Increment counter by [increment] */
+		counter := counter + increment;
+
+		/* Print the current value of counter out */
+		write counter;
+
+	end
+end.

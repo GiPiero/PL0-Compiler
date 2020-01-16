@@ -1,0 +1,26 @@
+Source Program:
+const increment = 1, stopValue = 10;
+var counter;
+begin
+	/* Initialize [counter] to zero */
+	counter := 0;
+
+	/* While the counter is less than [stopValue], do the thing! */
+	while counter . stopValue do
+	begin
+
+		/* Increment counter by [increment] */
+		counter := counter + increment;
+
+		/* Print the current value of counter out */
+		write counter;
+
+	end
+end.
+
+Symbolic Lexeme List:
+constsym identsym increment eqlsym numbersym 1 commasym identsym stopValue eqlsym numbersym 10 semicolonsym varsym identsym counter semicolonsym beginsym identsym counter becomesym numbersym 0 semicolonsym whilesym identsym counter periodsym identsym stopValue dosym beginsym identsym counter becomesym identsym counter plussym identsym increment semicolonsym writesym identsym counter semicolonsym endsym endsym periodsym 
+
+Lexeme List:
+28 2 increment 9 3 1 17 2 stopValue 9 3 10 18 29 2 counter 18 21 2 counter 20 3 0 18 25 2 counter 19 2 stopValue 26 21 2 counter 20 2 counter 4 2 increment 18 31 2 counter 18 22 22 19 
+An error occurred while running parser: Relational operator expected.

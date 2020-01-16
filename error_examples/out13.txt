@@ -1,0 +1,12 @@
+Source Program:
+var a;
+begin
+	a 4;
+end.
+
+Symbolic Lexeme List:
+varsym identsym a semicolonsym beginsym identsym a numbersym 4 semicolonsym endsym periodsym 
+
+Lexeme List:
+29 2 a 18 21 2 a 3 4 18 22 19 
+An error occurred while running parser: Assignment operator expected.

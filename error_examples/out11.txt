@@ -1,0 +1,12 @@
+Source Program:
+const a = 3;
+begin
+	c := a;
+end.
+
+Symbolic Lexeme List:
+constsym identsym a eqlsym numbersym 3 semicolonsym beginsym identsym c becomesym identsym a semicolonsym endsym periodsym 
+
+Lexeme List:
+28 2 a 9 3 3 18 21 2 c 20 2 a 18 22 19 
+An error occurred while running parser: Undeclared identifier.

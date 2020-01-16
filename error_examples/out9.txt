@@ -1,0 +1,11 @@
+Source Program:
+const a = 3;
+begin
+end a
+
+Symbolic Lexeme List:
+constsym identsym a eqlsym numbersym 3 semicolonsym beginsym endsym identsym a 
+
+Lexeme List:
+28 2 a 9 3 3 18 21 22 2 a 
+An error occurred while running parser: Period expected.

@@ -1,0 +1,3 @@
+procedure a;
+	write 5;
+call.

@@ -1,0 +1,6 @@
+const a=19, procedure=12, else=17;
+var answer;
+begin
+	answer := a*(12-11+(3*procedure)/(else+2);
+	write answer;
+end.

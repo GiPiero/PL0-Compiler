@@ -1,0 +1,14 @@
+Source Program:
+const a = 3;
+var b;
+begin
+	b := 2
+	b := a;
+end.
+
+Symbolic Lexeme List:
+constsym identsym a eqlsym numbersym 3 semicolonsym varsym identsym b semicolonsym beginsym identsym b becomesym numbersym 2 identsym b becomesym identsym a semicolonsym endsym periodsym 
+
+Lexeme List:
+28 2 a 9 3 3 18 29 2 b 18 21 2 b 20 3 2 2 b 20 2 a 18 22 19 
+An error occurred while running parser: An expression cannot begin with this symbol.

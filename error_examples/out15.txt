@@ -1,0 +1,12 @@
+Source Program:
+const b = 3;
+procedure a;
+    write 5;
+call b.
+
+Symbolic Lexeme List:
+constsym identsym b eqlsym numbersym 3 semicolonsym procsym identsym a semicolonsym writesym numbersym 5 semicolonsym callsym identsym b periodsym 
+
+Lexeme List:
+28 2 b 9 3 3 18 30 2 a 18 31 3 5 18 27 2 b 19 
+An error occurred while running parser: Call of a constant or variable is meaningless.

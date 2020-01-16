@@ -1,0 +1,15 @@
+Source Program:
+var a, b, answer;
+begin
+	read a;
+	read b;
+	answer := a-b;
+	write answer;
+.
+
+Symbolic Lexeme List:
+varsym identsym a commasym identsym b commasym identsym answer semicolonsym beginsym readsym identsym a semicolonsym readsym identsym b semicolonsym identsym answer becomesym identsym a minussym identsym b semicolonsym writesym identsym answer semicolonsym periodsym 
+
+Lexeme List:
+29 2 a 17 2 b 17 2 answer 18 21 32 2 a 18 32 2 b 18 2 answer 20 2 a 5 2 b 18 31 2 answer 18 19 
+An error occurred while running parser: Incorrect symbol following statement.

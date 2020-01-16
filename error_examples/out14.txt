@@ -1,0 +1,11 @@
+Source Program:
+procedure a;
+    write 5;
+call.
+
+Symbolic Lexeme List:
+procsym identsym a semicolonsym writesym numbersym 5 semicolonsym callsym periodsym 
+
+Lexeme List:
+30 2 a 18 31 3 5 18 27 19 
+An error occurred while running parser: call must be followed by an identifier.

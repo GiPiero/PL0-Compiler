@@ -1,0 +1,31 @@
+Source Program:
+const a := 3;
+begin
+end.
+
+Symbolic Lexeme List:
+constsym identsym a becomesym numbersym 3 semicolonsym beginsym endsym periodsym 
+
+Lexeme List:
+28 2 a 20 3 3 18 21 22 19 An error occurred while running parser: Identifier must be followed by =.
+Source Program:
+const a := 3;
+begin
+end.
+
+Symbolic Lexeme List:
+constsym identsym a becomesym numbersym 3 semicolonsym beginsym endsym periodsym 
+
+Lexeme List:
+28 2 a 20 3 3 18 21 22 19 An error occurred while running parser: Use = instead of :=.
+Source Program:
+const a = a;
+begin
+end.
+
+Symbolic Lexeme List:
+constsym identsym a eqlsym identsym a semicolonsym beginsym endsym periodsym 
+
+Lexeme List:
+28 2 a 9 2 a 18 21 22 19 
+An error occurred while running parser: = must be followed by a number.

@@ -1,0 +1,12 @@
+Source Program:
+const b = 3;
+procedure a;
+    write a;
+call a.
+
+Symbolic Lexeme List:
+constsym identsym b eqlsym numbersym 3 semicolonsym procsym identsym a semicolonsym writesym identsym a semicolonsym callsym identsym a periodsym 
+
+Lexeme List:
+28 2 b 9 3 3 18 30 2 a 18 31 2 a 18 27 2 a 19 
+An error occurred while running parser: Expression must not contain a procedure identifier.

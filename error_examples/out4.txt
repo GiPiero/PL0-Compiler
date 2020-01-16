@@ -1,0 +1,11 @@
+Source Program:
+const = 3;
+begin
+end.
+
+Symbolic Lexeme List:
+constsym eqlsym numbersym 3 semicolonsym beginsym endsym periodsym 
+
+Lexeme List:
+28 9 3 3 18 21 22 19 
+An error occurred while running parser: const, var, procedure must be followed by identifier.

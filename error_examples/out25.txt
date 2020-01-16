@@ -1,0 +1,7 @@
+Source Program:
+const b = 3;
+procedure a;
+    write 999999999999999999999999999999999999999999999999;
+call a.
+
+An error occurred while running lexical analysis: Number too long!

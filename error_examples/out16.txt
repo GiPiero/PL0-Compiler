@@ -1,0 +1,24 @@
+Source Program:
+const a = 3;
+begin
+	if a < 4 if
+end.
+
+Symbolic Lexeme List:
+constsym identsym a eqlsym numbersym 3 semicolonsym beginsym ifsym identsym a lessym numbersym 4 ifsym endsym periodsym 
+
+Lexeme List:
+28 2 a 9 3 3 18 21 23 2 a 11 3 4 23 22 19 
+An error occurred while running parser: An expression cannot begin with this symbol.
+Source Program:
+const a = 3;
+begin
+	if a < 4 if
+end.
+
+Symbolic Lexeme List:
+constsym identsym a eqlsym numbersym 3 semicolonsym beginsym ifsym identsym a lessym numbersym 4 ifsym endsym periodsym 
+
+Lexeme List:
+28 2 a 9 3 3 18 21 23 2 a 11 3 4 23 22 19 
+An error occurred while running parser: then expected.

@@ -1,0 +1,28 @@
+Source Program:
+const a=19, procedure=12, else=17;
+var answer;
+begin
+	answer := a*(*12-11+(3*procedure)/(else+2));
+	write answer;
+end.
+
+Symbolic Lexeme List:
+constsym identsym a eqlsym numbersym 19 commasym identsym procedure eqlsym numbersym 12 commasym identsym else eqlsym numbersym 17 semicolonsym varsym identsym answer semicolonsym beginsym identsym answer becomesym identsym a multsym lparentsym multsym numbersym 12 minussym numbersym 11 plussym lparentsym numbersym 3 multsym identsym procedure rparentsym slashsym lparentsym identsym else plussym numbersym 2 rparentsym rparentsym semicolonsym writesym identsym answer semicolonsym endsym periodsym 
+
+Lexeme List:
+28 2 a 9 3 19 17 2 procedure 9 3 12 17 2 else 9 3 17 18 29 2 answer 18 21 2 answer 20 2 a 6 15 6 3 12 5 3 11 4 15 3 3 6 2 procedure 16 7 15 2 else 4 3 2 16 16 18 31 2 answer 18 22 19 
+An error occurred while running parser: The preceding factor cannot begin with this symbol.
+Source Program:
+const a=19, procedure=12, else=17;
+var answer;
+begin
+	answer := a*(*12-11+(3*procedure)/(else+2));
+	write answer;
+end.
+
+Symbolic Lexeme List:
+constsym identsym a eqlsym numbersym 19 commasym identsym procedure eqlsym numbersym 12 commasym identsym else eqlsym numbersym 17 semicolonsym varsym identsym answer semicolonsym beginsym identsym answer becomesym identsym a multsym lparentsym multsym numbersym 12 minussym numbersym 11 plussym lparentsym numbersym 3 multsym identsym procedure rparentsym slashsym lparentsym identsym else plussym numbersym 2 rparentsym rparentsym semicolonsym writesym identsym answer semicolonsym endsym periodsym 
+
+Lexeme List:
+28 2 a 9 3 19 17 2 procedure 9 3 12 17 2 else 9 3 17 18 29 2 answer 18 21 2 answer 20 2 a 6 15 6 3 12 5 3 11 4 15 3 3 6 2 procedure 16 7 15 2 else 4 3 2 16 16 18 31 2 answer 18 22 19 
+An error occurred while running parser: The preceding factor cannot begin with this symbol.

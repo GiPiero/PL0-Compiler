@@ -1,0 +1,11 @@
+Source Program:
+const a = 3
+begin
+end.
+
+Symbolic Lexeme List:
+constsym identsym a eqlsym numbersym 3 beginsym endsym periodsym 
+
+Lexeme List:
+28 2 a 9 3 3 21 22 19 
+An error occurred while running parser: Semicolon or comma missing.

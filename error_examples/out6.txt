@@ -1,0 +1,12 @@
+Source Program:
+var x;
+procedure a
+var y;;
+call a.
+
+Symbolic Lexeme List:
+varsym identsym x semicolonsym procsym identsym a varsym identsym y semicolonsym semicolonsym callsym identsym a periodsym 
+
+Lexeme List:
+29 2 x 18 30 2 a 29 2 y 18 18 27 2 a 19 
+An error occurred while running parser: Incorrect symbol after procedure declaration.
